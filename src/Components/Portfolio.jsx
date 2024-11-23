@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/code.jpeg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "image of code on a computer screen";
 
 /**
  * Project list
@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Client-side Instagram Clone",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Built an Instagram client-side clone using REST APIs, React, JavaScript, and Python. Users can login, like, comment, and post very similarly to Instagram itself.",
+    url: "https://github.com/aidanncumich",
   },
   {
-    title: "Web Development for Beginners",
+    title: "MapReduce Framework",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Implemented a MapReduce framework in Python that executes MapReduce programs with distributed processing on a cluster of computers, using distributed systems, fault tolerance, OS-provided threads and processes, and networking sockets.",
+    url: "https://github.com/aidanncumich",
   },
   {
-    title: "My Resume Site",
+    title: "SillyQL Database",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Recreated a SQL database in C++ that follows basic table commands including CREATE, JOIN, GENERATE INDEX, DELETE FROM, INSERT INTO, REMOVE, and QUIT.",
+    url: "https://github.com/aidanncumich",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Student Post Classifier",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Developed a student forum post classifier in C++ using natural language processing and machine learning techniques. Trained the classifier using the bag-of-words model to classify the posts into categories using labels.",
+    url: "https://github.com/aidanncumich",
   },
 ];
 
